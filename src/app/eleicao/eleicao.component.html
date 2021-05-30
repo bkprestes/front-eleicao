@@ -1,0 +1,8 @@
+<div class="eleicoes">
+  <div *ngFor="let x of eleicoes">
+    <p>
+      Nome: {{ x.nome }}, Data: {{ x.data | date: 'shortDate'}}
+    </p>
+  </div>
+
+</div>
