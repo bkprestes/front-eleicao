@@ -1,1 +1,7 @@
-<app-eleicao></app-eleicao>
+<button (click)="sidenav.toggle()">Botão</button>
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav mode="side" opened>Sidenav content</mat-sidenav>
+  <mat-sidenav-content>
+    <app-eleicao></app-eleicao>
+  </mat-sidenav-content>
+</mat-sidenav-container>
